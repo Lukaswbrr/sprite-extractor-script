@@ -1,0 +1,1 @@
+A script that uses the contiguous (magic wand) select tool for automatically extracting NScripter character sprites.

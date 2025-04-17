@@ -137,8 +137,6 @@ view = app.activeWindow().activeView()
 document = view.document()
 
 
-
-
 def check_actions():
     for k in app.actions():
         if "select" in k.objectName():
