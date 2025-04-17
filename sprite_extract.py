@@ -200,6 +200,10 @@ def make_resize():
 def clear_select():
     app.action("deselect").trigger()
 
+def select_tool():
+    app.action("KisToolSelectContiguous").trigger()
+
+select_tool()
 make_click()
 make_selection()
 make_actions()
